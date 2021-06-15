@@ -1,0 +1,43 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:rgb(221, 221, 221);
+}
+
+.flex{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.intro{
+    min-height:100vh;
+}
+
+footer{
+    min-height:100vh;
+}
+
+.boxes{
+    min-height:150vh;
+    width: 80%;
+    margin: auto;
+    background:rgb(185, 185, 185);
+}
+
+.box-one{
+    background: blueviolet;
+    width:25%;
+    min-height: 20vh;
+}
+
+.box-two{
+    background: rgb(255, 251, 0);
+    padding: 2rem;
+    width: 45%;
+    min-height:20vh
+}
